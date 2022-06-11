@@ -6,11 +6,13 @@ export const ContactForm = ({
   pattern,
   title,
   setName,
+  inputRef
 }) => {
   return (
     <label htmlFor={formId}>
       {inputName}
       <input
+        ref={inputRef}
         onChange={setName}
         id={formId}
         type={type}
