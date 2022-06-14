@@ -27,7 +27,7 @@ export const App = () => {
       console.log(`lenDM: ${contacts.length}`);
     }
     inputRef.current.focus();
-
+    // eslint-disable-next-line
   }, []);
 
     useEffect(() => {
